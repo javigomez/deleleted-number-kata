@@ -5,5 +5,5 @@ export function findDeletedNumber(sequence:number[],modifiedSequence:number[]) {
     if (modifiedSequence.includes(sequence[0])) {
         return 0
     }
-    return null;
+    return 1;
 }
