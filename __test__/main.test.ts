@@ -9,7 +9,7 @@ import { findDeletedNumber } from '../src/findDeletedNumber'
 // [1,2,3,4,5], [5,4,3,2,1]) => 0
 // [1,2,3,4,5], [3,4,1,5]) => 2 // 'Deletion'
 describe('findDeletedNumber', () => {
-  it('should return 0 when no number have been deleted', () => {
+  it('return 0 when no number have been deleted', () => {
     expect(findDeletedNumber([],[])).toBe(0)
   });
 });
