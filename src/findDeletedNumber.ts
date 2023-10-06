@@ -1,6 +1,9 @@
-export function findDeletedNumber(_sequence:number[],_modifiedSequence:number[]) {
-    if (_sequence.length < 1) {
+export function findDeletedNumber(sequence:number[],modifiedSequence:number[]) {
+    if (sequence.length < 1) {
         return 0;
     }
-    return null
+    if (modifiedSequence.includes(sequence[0])) {
+        return 0
+    }
+    return null;
 }
