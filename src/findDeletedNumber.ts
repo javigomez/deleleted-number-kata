@@ -9,6 +9,7 @@ export function findDeletedNumber(sequence:number[],modifiedSequence:number[]) {
             deletedNumber = number;
         }
     });
+    
     return deletedNumber;
 
 }
