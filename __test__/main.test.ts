@@ -13,4 +13,7 @@ describe('findDeletedNumber', () => {
     expect(findDeletedNumber([],[])).toBe(0)
     expect(findDeletedNumber([1],[1])).toBe(0)
   });
+  it('return the number that has been deleted', () => {
+    expect(findDeletedNumber([1],[])).toBe(1)
+  });
 });
