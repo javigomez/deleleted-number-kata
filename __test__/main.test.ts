@@ -11,5 +11,6 @@ import { findDeletedNumber } from '../src/findDeletedNumber'
 describe('findDeletedNumber', () => {
   it('return 0 when no number have been deleted', () => {
     expect(findDeletedNumber([],[])).toBe(0)
+    expect(findDeletedNumber([1],[1])).toBe(0)
   });
 });
